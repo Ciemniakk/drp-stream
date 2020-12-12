@@ -1,3 +1,4 @@
+fx_version 'adamant'
 game 'gta5'
 this_is_a_map 'yes'
 
@@ -87,7 +88,7 @@ pmc_updates 'yes'
 pmc_github 'https://github.com/Ciemniakk/drp-stream/'
 pmc_version '1.02'
 
-files {,
+files {
 	'data/**/mp_f_freemode_01_mpsum_shop.meta',
 	'data/**/mp_m_freemode_01_mpsum_shop.meta',
 	'data/**/mp_f_freemode_01_mpvinewood_shop.meta',
