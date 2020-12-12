@@ -12,7 +12,7 @@ server_scripts {
 
 pmc_updates 'yes'
 pmc_github 'https://github.com/Ciemniakk/drp-stream/'
-pmc_version 'v1.1'
+pmc_version 'v1.2'
 
 
 files {
