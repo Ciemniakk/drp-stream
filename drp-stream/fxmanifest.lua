@@ -2,6 +2,19 @@ fx_version 'adamant'
 game 'gta5'
 this_is_a_map 'yes'
 
+auto 'yes'  -- enable auto updates?
+
+server_scripts {
+    'utils.lua',
+    'git.lua',
+    'checker.lua',
+}
+
+pmc_updates 'yes'
+pmc_github 'https://github.com/Ciemniakk/drp-stream/'
+pmc_version 'v1.1'
+
+
 files {
     'stream/**/vesp_props.ytyp',
 	'stream/**/phantaprops.ytyp',
