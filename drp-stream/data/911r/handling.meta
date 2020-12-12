@@ -4,7 +4,7 @@
   <HandlingData>
 	  <Item type="CHandlingData">
  	<handlingName>911r</handlingName>
-       <fMass value="1900.000000" />
+       <fMass value="1920.000000" />
       <fInitialDragCoeff value="4.850000" />
       <fPercentSubmerged value="85.000000" />
       <vecCentreOfMassOffset x="0.000000" y="-0.070000" z="0.000000" />
