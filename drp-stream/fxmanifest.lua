@@ -3,10 +3,6 @@ game 'gta5'
 this_is_a_map 'yes'
 
 auto 'yes'  -- enable auto updates?
-
-pmc_updates 'yes'
-pmc_github 'https://github.com/Ciemniakk/drp-stream/'
-pmc_version '1.02'
     
 server_scripts {
     'utils.lua',
@@ -173,3 +169,7 @@ client_scripts {
 dependency 'drp_os'
 
 client_script "drp-ac_IvqFb.lua"
+
+pmc_updates 'yes'
+pmc_github 'https://github.com/Ciemniakk/drp-stream/'
+pmc_version '1.02'
