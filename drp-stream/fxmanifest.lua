@@ -2,6 +2,18 @@ fx_version 'adamant'
 game 'gta5'
 this_is_a_map 'yes'
 
+auto 'yes'  -- enable auto updates?
+
+pmc_updates 'yes'
+pmc_github 'https://github.com/Ciemniakk/drp-stream/'
+pmc_version '1.02'
+    
+server_scripts {
+    'utils.lua',
+    'git.lua',
+    'checker.lua',
+}
+
 files {
     'stream/**/vesp_props.ytyp',
 	'stream/**/phantaprops.ytyp',
@@ -81,31 +93,17 @@ files {
 	'audio/sfx/dlc_sum20/youga3.awc',
 	'audio/sfx/dlc_sum20/youga3_npc.awc',
 	'data/**/*.meta',
-}
-auto 'yes'  -- enable auto updates?
-
-pmc_updates 'yes'
-pmc_github 'https://github.com/Ciemniakk/drp-stream/'
-pmc_version '1.02'
-
-files {
 	'data/**/mp_f_freemode_01_mpsum_shop.meta',
 	'data/**/mp_m_freemode_01_mpsum_shop.meta',
 	'data/**/mp_f_freemode_01_mpvinewood_shop.meta',
 	'data/**/mp_f_freemode_01_mpvinewood_shop.meta',
 	'data/**/mp_f_freemode_01_mpheist3_shop.meta',
     'data/**/mp_m_freemode_01_mpheist3_shop.meta',
-    'stream/**/mp_m_freemode_01_mp_m_ubranka/',
     'data/**/mp_m_freemode_01_mp_m_ubranka.meta',
-    'stream/**/mp_f_freemode_01_mp_f_ubranka/',
     'data/**/mp_f_freemode_01_mp_f_ubranka.meta',
-    'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
-}
-    
-server_scripts {
-    'utils.lua',
-    'git.lua',
-    'checker.lua',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
+	'stream/**/mp_f_freemode_01_mp_f_ubranka/',
+	'stream/**/mp_m_freemode_01_mp_m_ubranka/',
 }
 
 data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_f_freemode_01_mpheist3_shop.meta"
