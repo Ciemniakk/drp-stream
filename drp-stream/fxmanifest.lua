@@ -3,10 +3,6 @@ game 'gta5'
 this_is_a_map 'yes'
 
 auto 'yes'  -- enable auto updates?
-
-pmc_updates 'yes'
-pmc_github 'https://github.com/Ciemniakk/drp-stream/'
-pmc_version '1.02'
     
 server_scripts {
     'utils.lua',
@@ -93,28 +89,41 @@ files {
 	'audio/sfx/dlc_sum20/youga3.awc',
 	'audio/sfx/dlc_sum20/youga3_npc.awc',
 	'data/**/*.meta',
+	'stream/**/mp_m_freemode_01_mp_m_ubranka/',
+	'stream/**/mp_f_freemode_01_mp_f_ubranka/',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaaaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubranka.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaa.meta',
+	'data/**/mp_m_freemode_01_mp_m_ubrankaaaaa.meta',
 	'data/**/mp_f_freemode_01_mpsum_shop.meta',
 	'data/**/mp_m_freemode_01_mpsum_shop.meta',
-	'data/**/mp_f_freemode_01_mpvinewood_shop.meta',
-	'data/**/mp_f_freemode_01_mpvinewood_shop.meta',
 	'data/**/mp_f_freemode_01_mpheist3_shop.meta',
-    'data/**/mp_m_freemode_01_mpheist3_shop.meta',
-    'data/**/mp_m_freemode_01_mp_m_ubranka.meta',
-    'data/**/mp_f_freemode_01_mp_f_ubranka.meta',
-	'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta',
-	'stream/**/mp_f_freemode_01_mp_f_ubranka/',
-	'stream/**/mp_m_freemode_01_mp_m_ubranka/',
+	'data/**/mp_m_freemode_01_mpheist3_shop.meta',
 }
 
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_f_freemode_01_mpheist3_shop.meta"
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_m_freemode_01_mpheist3_shop.meta"	
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_f_freemode_01_mpvinewood_shop.meta"
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_m_freemode_01_mpvinewood_shop.meta" 
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_f_freemode_01_mpsum_shop.meta"
-data_file "SHOP_PED_APPAREL_META_FILE" "data/**/mp_m_freemode_01_mpsum_shop.meta"
-data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubranka.meta'
 data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaaaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaaaaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_m_freemode_01_mp_m_ubrankaaaaaaa.meta'
 data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_f_freemode_01_mp_f_ubranka.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_f_freemode_01_mp_f_ubrankaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_f_freemode_01_mp_f_ubrankaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_f_freemode_01_mp_f_ubrankaaaa.meta'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'data/**/mp_f_freemode_01_mp_f_ubrankaaaaa.meta'
+data_file "SHOP_PED_APPAREL_META_FILE" 'data/**/mp_f_freemode_01_mpsum_shop.meta'
+data_file "SHOP_PED_APPAREL_META_FILE" 'data/**/mp_m_freemode_01_mpsum_shop.meta'
+data_file "SHOP_PED_APPAREL_META_FILE" 'data/**/mp_f_freemode_01_mpheist3_shop.meta'
+data_file "SHOP_PED_APPAREL_META_FILE" 'data/**/mp_m_freemode_01_mpheist3_shop.meta'
 
 
 data_file 'AUDIO_GAMEDATA' 'audio/dlcsum20_game.dat'
@@ -173,3 +182,7 @@ client_scripts {
 dependency 'drp_os'
 
 client_script "drp-ac_IvqFb.lua"
+
+pmc_updates 'yes'
+pmc_github 'https://github.com/Ciemniakk/drp-stream/'
+pmc_version '1.022'
