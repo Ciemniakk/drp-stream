@@ -532,6 +532,7 @@
         <Item>hei_ch1_06_strm_1</Item>
         <Item>HebrachoPuto</Item>
         <Item>cs1_07_long_0</Item>
+        <Item>dlc_xmas_gabz_01</Item>
         <Item>hei_cs1_07_strm_0</Item>
         <Item>hei_ch1_06d_long_0</Item>
         <Item>hei_cs1_roads_pb_long_1</Item>
@@ -664,5 +665,9 @@
         <Item>bzk_newpark4</Item>
         <Item>cs3_05_water_grp2_lod</Item>
         <Item>cs3_05_water_grp2</Item>
+        <Iten>baham_milo_</Item>
+        <Iten>hei_sm_rd_strm_2</Item>
+        <Iten>hei_sm_16_interior_v_bahama_milo_</Item>
+        <Iten>hei_sm_occl_03</Item>
     </proxies>
 </SInteriorOrderData>

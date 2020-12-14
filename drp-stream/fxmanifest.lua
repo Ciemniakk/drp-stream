@@ -103,8 +103,6 @@ files {
 	'data/**/mp_m_freemode_01_mp_m_ubrankaaa.meta',
 	'data/**/mp_m_freemode_01_mp_m_ubrankaaaa.meta',
 	'data/**/mp_m_freemode_01_mp_m_ubrankaaaaa.meta',
-	'data/**/mp_f_freemode_01_mpsum_shop.meta',
-	'data/**/mp_m_freemode_01_mpsum_shop.meta',
 	'data/**/mp_f_freemode_01_mpheist3_shop.meta',
 	'data/**/mp_m_freemode_01_mpheist3_shop.meta',
 }
@@ -185,4 +183,4 @@ client_script "drp-ac_IvqFb.lua"
 
 pmc_updates 'yes'
 pmc_github 'https://github.com/Ciemniakk/drp-stream/'
-pmc_version '1.022'
+pmc_version '1.23'

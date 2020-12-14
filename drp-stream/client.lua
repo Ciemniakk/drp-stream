@@ -535,7 +535,7 @@ function RequestAllIpls()
 	RequestIpl('CS3_07_MPGates')
 
 	-- Pillbox hospital: 356.8, -590.1, 43.3
-	RequestIpl('RC12B_Default')
+	--RequestIpl('RC12B_Default')
 	-- RequestIpl('RC12B_Fixed')
 
 	-- Josh's house: -1117.163, 303.1, 66.522
@@ -877,6 +877,26 @@ function RequestAllIpls()
 	RequestIpl('prologue_m2_door')
 	--]]
 end
+
+Citizen.CreateThread(function()
+	RequestIpl("gabz_pillbox_milo_")
+	local interiorID = GetInteriorAtCoords(311.2546, -592.4204, 42.32737)
+	local int = {
+		"rc12b_fixed",
+		"rc12b_destroyed",
+		"rc12b_default",
+		"rc12b_hospitalinterior_lod",
+		"rc12b_hospitalinterior"
+	}
+	Wait(10000)
+	for i = 1, #int, 1 do
+		if IsIplActive(int[i]) then
+			RemoveIpl(int[i])
+		end
+	end
+	RefreshInterior(interiorID)
+	LoadInterior(interiorID)
+end)
 
 function AddTextEntry(key, value)
 	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
