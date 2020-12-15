@@ -43,8 +43,8 @@
 <fWeaponDamageMult value="0.82" />
 <fDeformationDamageMult value="2.15" />
 <fEngineDamageMult value="0.73" />
-<fPetrolTankVolume value="262.50" />
-<fOilVolume value="149.84" />
+<fPetrolTankVolume value="74.50" />
+<fOilVolume value="10.84" />
 <fSeatOffsetDistX value="0.0" />
 <fSeatOffsetDistY value="0.0" />
 <fSeatOffsetDistZ value="0" />
