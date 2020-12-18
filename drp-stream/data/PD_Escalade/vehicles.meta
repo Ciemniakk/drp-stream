@@ -129,7 +129,7 @@
   <txdRelationships>
     <Item>
       <parent>vehicles_banshee_interior</parent>
-      <child>tahoe</child>
+      <child>code3escalade</child>
     </Item>
   </txdRelationships>
 </CVehicleModelInfo__InitDataList>
